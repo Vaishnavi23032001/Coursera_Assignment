@@ -1,6 +1,6 @@
 h1{
     color: purple;
-    background-color: gray;
+    /* background-color: gray; */
 }
 
 /* h1 is selector
@@ -15,18 +15,19 @@ p
 { 
    color: blue; 
 }
-
+ /* ID Selectors  */
 #latest { 
     background-color: purple; 
 }
-
+/* Class Selectors  */
 .navigation { 
     margin: 2px;
 }
+/* Element with Class Selector */
 p.introduction { 
     margin: 2px;
   }
-
+/* Descendant Selectors */
   #blog h1 {
     color: blue;
   }
@@ -92,4 +93,15 @@ p {
     text-decoration-color: red;
     text-decoration-style: solid;
     text-decoration-thickness: 5px;
+  }
+
+  h4{
+    border: 5px ;
+    width: 100px;
+    height: 20px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    margin-left: 20px;
+    margin-right:50px;
+    padding: 25px 25px 25px 25px;
   }
